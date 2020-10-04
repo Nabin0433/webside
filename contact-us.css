@@ -1,0 +1,140 @@
+
+/* for all side bar  */
+/*check box  */
+#menu-btn{
+padding: 8px;
+position: fixed;
+color: navajowhite;
+top:-2px;
+left:0px;
+z-index: 1;
+font-size: 40px;
+font-weight: bold;
+background: transparent ;
+}
+ #check:checked~label #cancel{
+  color: silver;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 3px;
+  margin: 0px;
+}
+/*booooooriong*/
+.fixed{
+  position: fixed;
+  top:0px;
+  margin-top: 1px;
+  background: snow;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+/*  for head img*/
+.s1top{
+  background-image:url(/./img-sorces/0d81958330186bd03d41179f6a880641.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+div.s1top{
+  color:#894D39;
+  font-size:30px;
+}
+pre{
+  font-size:10px;
+  color: white;
+}
+/*input  */
+  .feedback{
+  border: none;
+  background:none ;
+  color: green;
+  text-align: center;
+  line-height:1.8cm;
+}
+.fd1{
+  border: none;
+  padding: 1px 5px;
+  background: none;
+  color: dimgrey;
+}
+.fd2{
+  border: none;
+  height: 20px;
+  padding: 20px 30px ;
+  background: none;
+  color: skyblue;
+}
+.fdsubmit{
+  z-index: -1;
+  padding:2px 4px;
+  margin:5px auto;
+  background: darkcyan;
+  color: red;
+  border: none;
+  border-radius: 20px;
+}
+.fdsubmit:hover{
+  box-shadow: 1px 1px 4px 3px antiquewhite;
+}
+.fd1:focus,
+.fd2:focus,
+.fdsubmit:focus{
+  outline: none;
+}
+
+/* for div contactinfo  */
+.cinfo{
+  margin-top:0px ;
+  margin-bottom: 75px;
+  background-color: #77653863;
+}
+.text{
+  margin:4px ;
+}
+.cinfo h2{
+  text-align: center;
+  font-size:50px ;
+  margin-top:10px ;
+}
+
+.cinfo-2{
+  margin: 8px;
+  text-align: center;
+}
+.cinfo-1{
+  color: #2C337D;
+  margin: 4px;
+}
+/*footer*/
+footer{
+  text-shadow:4px 6px 1px #5C5D62;
+  background-color:#0C461082 ;
+  color:#CECF52 ;
+  font-size:20px ;
+  width:100%;
+  padding:4px 2px ;
+  text-align:center ;
+  border:1px solid #155A78;
+  word-spacing:5px;
+  letter-spacing:3px;
+  font-family: "Courier New", Courier, monospace;
+  position:fixed;
+  bottom:0;
+}
+big{
+  font-size: 25px;
+}
+.sociallink ul i{
+  color: greenyellow;
+  padding: 2px;
+  border-radius: 9px;
+}
+.sociallink ul i:hover{
+color: darkgoldenrod;
+box-shadow: 0px 0px 2px 2px aquamarine;
+}
